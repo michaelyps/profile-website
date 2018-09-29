@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import { Menu, Container } from "semantic-ui-react";
+import { Menu, Container, Image } from "semantic-ui-react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import About from "./pages/about";
 import Work from "./pages/work";
+
+import evan from "./img/evan.JPG";
 
 export default class App extends Component {
   state = { activeItem: "about" };
@@ -19,6 +21,10 @@ export default class App extends Component {
           <Container>
             <div>
               <Menu secondary size="massive">
+                <div className="avatar">
+                  <Image src={evan} avatar />
+                  <span>@michaelyps</span>
+                </div>
                 <Menu.Menu position="right">
                   <Menu.Item
                     as={Link}

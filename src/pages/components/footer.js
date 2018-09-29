@@ -53,6 +53,12 @@ class Footer extends Component {
                       </a>
                     }
                   />
+                  <List.Item
+                    icon="twitter"
+                    content={
+                      <a href="https://twitter.com/YosavaniP">@YosavaniP</a>
+                    }
+                  />
                 </List>
               </Grid.Column>
               <Grid.Column width={7}>

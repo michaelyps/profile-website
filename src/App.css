@@ -1,4 +1,9 @@
 /* page ABOUT */
+.avatar {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .judul-about {
   font-family: Menlo, Monaco, "Courier New", monospace;
   font-size: 80px;
@@ -38,4 +43,11 @@
   font-family: Menlo, Monaco, "Courier New", monospace;
   text-align: center;
   margin-bottom: 200px;
+}
+
+.bio2 {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
 }

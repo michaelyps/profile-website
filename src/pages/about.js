@@ -38,10 +38,12 @@ class About extends Component {
           </div>
           <div className="bio">Hi.</div>
           <div className="bio1">
+            My FullName is Michael Yosavani Putra <br />
             I'm a fullstack web developer based in Indonesia, <br />
             Jakarta. I have a passion for web design <br />
             and love to create for web and mobile devices.
           </div>
+          <div className="bio2">What i can do.</div>
         </Container>
         <Footer />
       </div>
