@@ -1,0 +1,38 @@
+/* page ABOUT */
+.judul-about {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 80px;
+}
+
+.judul {
+  margin-top: 100px;
+}
+
+.judul1 {
+  margin-top: 30px;
+}
+
+.judul-about1 {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+.foto1 {
+  margin-top: 50px;
+}
+
+.foto-evan1 {
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+}
+
+.bio {
+  margin-top: 30px;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 30px;
+}
+
+.bio1 {
+  margin-top: 30px;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
