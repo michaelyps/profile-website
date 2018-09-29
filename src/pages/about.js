@@ -4,6 +4,8 @@ import "../App.css";
 
 import evan from "../img/evan.JPG";
 
+import Footer from "./components/footer";
+
 class About extends Component {
   constructor(props) {
     super(props);
@@ -30,13 +32,7 @@ class About extends Component {
             </div>
           </Container>
         </Segment>
-        <Segment
-          textAlign="center"
-          style={{
-            padding: "1em 0em"
-          }}
-          vertical="vertical"
-        >
+        <Container>
           <div className="foto1">
             <Image src={evan} size="medium" className="foto-evan1" />
           </div>
@@ -46,7 +42,8 @@ class About extends Component {
             Jakarta. I have a passion for web design <br />
             and love to create for web and mobile devices.
           </div>
-        </Segment>
+        </Container>
+        <Footer />
       </div>
     );
   }
