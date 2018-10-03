@@ -17,7 +17,7 @@
   margin-top: 30px;
 }
 
-.judul-about1 {
+.judul2 {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
@@ -50,4 +50,29 @@
   font-size: 30px;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.bio3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 100px;
+  grid-gap: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.bio4 {
+  text-align: right;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 30px;
+}
+
+.bio5 {
+  text-align: left;
+  font-size: 20px;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+.bio6 {
+  margin-top: 20px;
 }
