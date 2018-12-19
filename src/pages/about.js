@@ -1,8 +1,11 @@
 import React, { Component } from "react";
-import { Container, Segment, Image } from "semantic-ui-react";
+import { Container, Segment, Image, Grid } from "semantic-ui-react";
 import "../App.css";
 
 import evan from "../img/evan.JPG";
+import react from "../img/react.png";
+import expressjs from "../img/expressjs.png";
+import sequelize from "../img/sequelize.png";
 
 import Footer from "./components/footer";
 
@@ -45,16 +48,19 @@ class About extends Component {
           </div>
           <div className="bio2">What i can do.</div>
           <div className="bio3">
-            <div className="bio4">Front-End</div>
-            <div>
-              <div className="bio5">Technology that I used to use</div>
-              <div className="bio6">
-                HTML <br />
-                CSS <br />
-                JavaScript <br />
-                React
-              </div>
-            </div>
+            <Grid divided="vertically">
+              <Grid.Row columns={3}>
+                <Grid.Column>
+                  <Image src={react} />
+                </Grid.Column>
+                <Grid.Column>
+                  <Image src={expressjs} />
+                </Grid.Column>
+                <Grid.Column>
+                  <Image src={sequelize} />
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
           </div>
         </Container>
         <Footer />

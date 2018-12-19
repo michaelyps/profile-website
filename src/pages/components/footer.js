@@ -23,7 +23,7 @@ class Footer extends Component {
                 <Header inverted="inverted" as="h4" content="About" />
                 <List>
                   <List.Item icon="users" content="@michaelyps" />
-                  <List.Item icon="marker" content="Jakarta" />
+                  <List.Item icon="marker" content="Jakarta, Indonesia" />
                   <List.Item
                     icon="mail"
                     content={
@@ -59,16 +59,21 @@ class Footer extends Component {
                       <a href="https://twitter.com/YosavaniP">@YosavaniP</a>
                     }
                   />
+                  <List.Item
+                    icon="facebook official"
+                    content={
+                      <a href="https://www.facebook.com/evan.syn">
+                        Michael Yosavani Putra
+                      </a>
+                    }
+                  />
                 </List>
               </Grid.Column>
               <Grid.Column width={7}>
                 <Header as="h4" inverted="inverted">
                   Thank you for visiting my website :)
                 </Header>
-                <p>
-                  I'm apologize if my website makes you uncomfortable.
-                  development of this website will continue. coming soon . . .
-                </p>
+                <p />
               </Grid.Column>
             </Grid.Row>
           </Grid>
