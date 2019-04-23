@@ -23,11 +23,11 @@ class Footer extends Component {
                 <Header inverted="inverted" as="h4" content="About" />
                 <List>
                   <List.Item icon="users" content="@michaelyps" />
-                  <List.Item icon="marker" content="Jakarta, Indonesia" />
+                  <List.Item icon="marker" content="Indonesia" />
                   <List.Item
                     icon="mail"
                     content={
-                      <a href="mailto:surbaktievan@ymail.com">
+                      <a href="mailto:surbaktievan@gmail.com">
                         surbaktievan@ymail.com
                       </a>
                     }
@@ -67,6 +67,7 @@ class Footer extends Component {
                       </a>
                     }
                   />
+                  <List.Item icon="phone" content="+62 812 6440 6574" />
                 </List>
               </Grid.Column>
               <Grid.Column width={7}>

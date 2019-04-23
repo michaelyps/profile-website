@@ -9,7 +9,7 @@ class Work extends Component {
   render() {
     return (
       <Container>
-        <h1>Work page</h1>
+        <h1>still under construction :)</h1>
       </Container>
     );
   }
