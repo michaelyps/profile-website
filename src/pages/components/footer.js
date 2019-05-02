@@ -19,24 +19,30 @@ class Footer extends Component {
         <Container>
           <Grid divided="divided" inverted="inverted" stackable="stackable">
             <Grid.Row>
-              <Grid.Column width={3}>
+              <Grid.Column width={4}>
                 <Header inverted="inverted" as="h4" content="About" />
                 <List>
                   <List.Item icon="users" content="@michaelyps" />
-                  <List.Item icon="marker" content="Indonesia" />
+                  <List.Item
+                    icon="marker"
+                    content="Indonesia, East Nusa Tenggara"
+                  />
                   <List.Item
                     icon="mail"
                     content={
                       <a href="mailto:surbaktievan@gmail.com">
-                        surbaktievan@ymail.com
+                        surbaktievan@gmail.com
                       </a>
                     }
                   />
                   <List.Item
                     icon="linkify"
                     content={
-                      <a href="https://impactalumni.netlify.com/">
-                        https://impactalumni.com/
+                      <a
+                        href="https://michaelyosavaniputra.com/"
+                        target="_blank"
+                      >
+                        https://michaelyosavaniputra.com/
                       </a>
                     }
                   />
@@ -48,7 +54,10 @@ class Footer extends Component {
                   <List.Item
                     icon="instagram"
                     content={
-                      <a href="https://www.instagram.com/michaelyps/?hl=en">
+                      <a
+                        href="https://www.instagram.com/michaelyps/?hl=en"
+                        target="_blank"
+                      >
                         @michaelyps
                       </a>
                     }
@@ -56,13 +65,18 @@ class Footer extends Component {
                   <List.Item
                     icon="twitter"
                     content={
-                      <a href="https://twitter.com/YosavaniP">@YosavaniP</a>
+                      <a href="https://twitter.com/YosavaniP " target="_blank">
+                        @YosavaniP
+                      </a>
                     }
                   />
                   <List.Item
                     icon="facebook official"
                     content={
-                      <a href="https://www.facebook.com/evan.syn">
+                      <a
+                        href="https://www.facebook.com/evan.syn"
+                        target="_blank"
+                      >
                         Michael Yosavani Putra
                       </a>
                     }

@@ -3,9 +3,10 @@ import { Container, Segment, Image, Grid } from "semantic-ui-react";
 import "../App.css";
 
 import evan from "../img/evan.JPG";
-import react from "../img/react.png";
-import expressjs from "../img/expressjs.png";
-import sequelize from "../img/sequelize.png";
+import evan1 from "../img/evan1.JPG";
+// import react from "../img/react.png";
+// import expressjs from "../img/expressjs.png";
+// import sequelize from "../img/sequelize.png";
 
 import Footer from "./components/footer";
 
@@ -37,7 +38,7 @@ class About extends Component {
         </Segment>
         <Container>
           <div className="foto1">
-            <Image src={evan} size="medium" className="foto-evan1" />
+            <Image src={evan1} size="medium" className="foto-evan1" />
           </div>
           <div className="bio">Hi.</div>
           <div className="bio1">
@@ -50,22 +51,22 @@ class About extends Component {
             I have a passion for web design <br />
             I also do freelance work to make a website <br />
           </div>
-          <div className="bio2">What i can do.</div>
+          {/* <div className="bio2">What i can do.</div>
           <div className="bio3">
-            <Grid divided="vertically">
+            <Grid divided="divided" inverted="inverted" stackable="stackable">
               <Grid.Row columns={3}>
-                <Grid.Column>
+                <Grid.Column width={5}>
                   <Image src={react} />
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column width={5}>
                   <Image src={expressjs} />
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column width={5}>
                   <Image src={sequelize} />
                 </Grid.Column>
               </Grid.Row>
             </Grid>
-          </div>
+          </div> */}
         </Container>
         <Footer />
       </div>
