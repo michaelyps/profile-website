@@ -71,10 +71,10 @@ class Footer extends Component {
                     }
                   />
                   <List.Item
-                    icon="facebook official"
+                    icon="stack overflow"
                     content={
                       <a
-                        href="https://www.facebook.com/evan.syn"
+                        href="https://stackoverflow.com/cv/michaelyps"
                         target="_blank"
                       >
                         Michael Yosavani Putra
