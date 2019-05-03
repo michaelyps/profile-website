@@ -43,13 +43,13 @@ class About extends Component {
           <div className="bio">Hi.</div>
           <div className="bio1">
             My FullName is Michael Yosavani Putra, A.Md. <br />
-            I'm a fullstack web developer as well as a civil servant in the
+            I'm a fullstack web developer as well as a civil servant at the
             <br />
             Kementerian Agraria dan Tata Ruang / Badan Pertanahan Nasional
             Republik Indonesia <br />
             based in Indonesia, East Nusa Tenggara. <br />
             I have a passion for web design <br />
-            I also do freelance work to make a website <br />
+            i also became / being a freelancer as a website maker <br />
           </div>
           {/* <div className="bio2">What i can do.</div>
           <div className="bio3">
