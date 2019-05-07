@@ -77,7 +77,7 @@ class Footer extends Component {
                         href="https://stackoverflow.com/cv/michaelyps"
                         target="_blank"
                       >
-                        Michael Yosavani Putra
+                        Stackoverflow CV
                       </a>
                     }
                   />
