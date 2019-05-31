@@ -22,7 +22,7 @@ class About extends Component {
           inverted="inverted"
           textAlign="center"
           style={{
-            minHeight: 700,
+            minHeight: 600,
             padding: "1em 0em"
           }}
           vertical="vertical"
