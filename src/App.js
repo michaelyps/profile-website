@@ -33,13 +33,13 @@ export default class App extends Component {
                     active={activeItem === "about"}
                     onClick={this.handleItemClick}
                   />
-                  <Menu.Item
+                  {/* <Menu.Item
                     as={Link}
                     to="/work"
                     name="Work"
                     active={activeItem === "work"}
                     onClick={this.handleItemClick}
-                  />
+                  /> */}
                 </Menu.Menu>
               </Menu>
             </div>
