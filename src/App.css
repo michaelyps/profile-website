@@ -36,6 +36,7 @@
   font-family: monospace;
   font-size: 30px;
   text-align: center;
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
 .bio1 {
@@ -43,7 +44,8 @@
   font-family: monospace;
   font-size: 120%;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
 .bio2 {
@@ -80,4 +82,10 @@
 
 .isi {
   margin-top: 100px;
+}
+
+.sosmed {
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
 }

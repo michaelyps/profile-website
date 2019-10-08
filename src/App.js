@@ -20,7 +20,7 @@ export default class App extends Component {
         <div>
           <Container>
             <div>
-              <Menu secondary size="massive">
+              {/* <Menu secondary size="massive">
                 <div className="avatar">
                   <Image src={evan} avatar />
                   <span>@michaelyps</span>
@@ -32,16 +32,16 @@ export default class App extends Component {
                     name="About"
                     active={activeItem === "about"}
                     onClick={this.handleItemClick}
-                  />
-                  {/* <Menu.Item
+                  /> */}
+              {/* <Menu.Item
                     as={Link}
                     to="/work"
                     name="Work"
                     active={activeItem === "work"}
                     onClick={this.handleItemClick}
                   /> */}
-                </Menu.Menu>
-              </Menu>
+              {/* </Menu.Menu>
+              </Menu> */}
             </div>
           </Container>
           <Route exact path="/" component={About} />
