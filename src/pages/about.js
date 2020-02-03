@@ -1,19 +1,8 @@
 import React, { Component } from "react";
-import {
-  Container,
-  Segment,
-  Image,
-  Grid,
-  Button,
-  Icon
-} from "semantic-ui-react";
+import { Container, Image, Grid, Button, Icon } from "semantic-ui-react";
 import "../App.css";
 
-import evan from "../img/evan.JPG";
 import evan1 from "../img/evan1.JPG";
-// import react from "../img/react.png";
-// import expressjs from "../img/expressjs.png";
-// import sequelize from "../img/sequelize.png";
 
 import Footer from "./components/footer";
 
@@ -39,7 +28,7 @@ class About extends Component {
               Republik Indonesia <br />
               based in Indonesia, East Nusa Tenggara. <br />
               I have a passion for web design <br />
-              i also became / being a freelancer as a website maker <br />
+              i also became/being a freelancer as a website maker <br />
             </div>
             <div className="sosmed">
               <Grid columns={3}>
@@ -71,7 +60,6 @@ class About extends Component {
               </Grid>
             </div>
           </Container>
-          {/* <Footer /> */}
         </div>
       </div>
     );
