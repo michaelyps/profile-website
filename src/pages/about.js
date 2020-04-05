@@ -4,8 +4,6 @@ import "../App.css";
 
 import evan1 from "../img/evan1.JPG";
 
-import Footer from "./components/footer";
-
 class About extends Component {
   constructor(props) {
     super(props);
