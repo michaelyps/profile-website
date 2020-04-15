@@ -30,7 +30,7 @@
   font-family: monospace;
   font-size: 30px;
   text-align: center;
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Lucida Console", Courier, monospace;
 }
 
 .bio1 {
@@ -39,7 +39,7 @@
   font-size: 120%;
   text-align: center;
   margin-bottom: 50px;
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Lucida Console", Courier, monospace;
 }
 
 .bio4 {

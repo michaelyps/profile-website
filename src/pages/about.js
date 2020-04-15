@@ -19,7 +19,7 @@ class About extends Component {
             </div>
             <div className="bio">Hi.</div>
             <div className="bio1">
-              My FullName is Michael Yosavani Putra Surbakti, A.Md. <br />
+              My FullName is Michael Yosavani Putra Surbakti <br />
               I'm a fullstack web developer as well as a civil servant at the
               <br />
               Kementerian Agraria dan Tata Ruang/Badan Pertanahan Nasional
